@@ -1,0 +1,9 @@
+/export/*
+Access-Control-Allow-Origin: *
+
+/public/*
+Access-Control-Allow-Origin: *
+
+/export/media/*
+Access-Control-Allow-Origin: *
+
