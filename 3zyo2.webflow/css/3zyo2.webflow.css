@@ -1,0 +1,845 @@
+:root {
+  --hh: #0fb;
+  --hjk: #17e4ff;
+  --bl: 900;
+  --bll: "Futura Std", Verdana, sans-serif;
+}
+
+.threejs-container {
+  pointer-events: auto;
+  width: 1460px;
+  height: 950px;
+  position: static;
+  inset: 0%;
+}
+
+.three-js-canvas {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  inset: 0%;
+}
+
+.body {
+  background-color: #000;
+}
+
+.div-block {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 150px;
+  margin-right: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  position: fixed;
+  inset: 0% auto 0% 0%;
+}
+
+.div-block-2 {
+  filter: blur(1px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  outline-width: 2px;
+  outline-style: solid;
+  width: 20px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 0;
+  position: relative;
+}
+
+.div-block-3 {
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  background-color: #000;
+  outline-width: 3px;
+  outline-style: solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-4 {
+  color: #0fa0;
+  text-align: center;
+  letter-spacing: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0fa;
+  text-transform: uppercase;
+  width: 30px;
+  height: 200px;
+  padding-left: 0;
+  font-family: Futura Urw, Arial, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140px;
+}
+
+.div-block-4.o {
+  width: 81px;
+}
+
+.div-block-5 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  pointer-events: none;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-4-copy {
+  filter: blur(1px);
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  width: 30px;
+  height: 200px;
+  padding-left: 10px;
+  font-family: Futura Book, Arial, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140px;
+}
+
+.div-block-4-copy.o {
+  width: 81px;
+}
+
+.div-block-6 {
+  pointer-events: none;
+  mix-blend-mode: screen;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.code-embed {
+  mix-blend-mode: screen;
+}
+
+.div-block-7 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-flow: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.div-block-8 {
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  width: auto;
+  height: 75px;
+  display: flex;
+}
+
+.div-block-9 {
+  filter: blur(1px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  outline-width: 2px;
+  outline-style: solid;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+  inset: 0%;
+}
+
+.div-block-10 {
+  opacity: 1;
+  outline-offset: 0px;
+  background-color: #00ffa13b;
+  outline: 2px solid #00ffb2;
+  margin: 0;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-10:hover {
+  filter: saturate(200%);
+}
+
+.div-block-11 {
+  grid-column-gap: 11px;
+  grid-row-gap: 11px;
+  display: flex;
+}
+
+.outpo {
+  outline-offset: 0px;
+  outline: 1px solid #fff;
+  width: 80px;
+}
+
+.div-block-12 {
+  justify-content: space-around;
+  align-self: stretch;
+  align-items: flex-start;
+  height: 45px;
+  padding-left: 10px;
+  display: flex;
+  position: relative;
+  inset: 0% 0% 0;
+}
+
+.div-block-13 {
+  opacity: 0;
+  background-image: url('../images/lilicht-2-2.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  margin: -183px -23px -200px -36px;
+  display: flex;
+  position: static;
+}
+
+.div-block-14 {
+  z-index: 10;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  filter: contrast(200%) hue-rotate(117deg);
+  pointer-events: none;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-15 {
+  background-color: var(--hh);
+  filter: blur(1px);
+  width: 3px;
+  height: 100px;
+  margin: 10px auto;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-16, .code-embed-2 {
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-17 {
+  pointer-events: none;
+  mix-blend-mode: normal;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 2% 0% 0%;
+}
+
+.div-block-18 {
+  border: 3px solid var(--hh);
+  filter: blur(1px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  mix-blend-mode: color-dodge;
+  border-radius: 700px;
+  outline-width: 3px;
+  outline-style: none;
+  width: 700px;
+  height: 700px;
+  margin-top: -100px;
+}
+
+.div-block-18-copy {
+  border: 2px solid var(--hh);
+  filter: blur(1px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  mix-blend-mode: color-dodge;
+  border-radius: 700px;
+  outline-width: 3px;
+  outline-style: none;
+  width: 700px;
+  height: 700px;
+  margin-top: -89px;
+  margin-left: 18px;
+  position: absolute;
+}
+
+.div-block-18-copy-copy {
+  border: 3px solid var(--hh);
+  filter: blur(2px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  mix-blend-mode: screen;
+  border-radius: 700px;
+  outline-width: 3px;
+  outline-style: none;
+  width: 700px;
+  height: 700px;
+  margin-top: -90px;
+  margin-left: 0;
+  position: absolute;
+}
+
+.div-block-18-copy-copy-copy {
+  border: 12px solid var(--hh);
+  filter: blur(25px);
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  mix-blend-mode: screen;
+  border-radius: 700px;
+  outline-width: 3px;
+  outline-style: none;
+  width: 700px;
+  height: 700px;
+  margin-top: -90px;
+  margin-left: 0;
+  position: absolute;
+}
+
+.div-block-19 {
+  opacity: 1;
+  -webkit-backdrop-filter: brightness(139%) contrast(124%) hue-rotate(90deg);
+  backdrop-filter: brightness(139%) contrast(124%) hue-rotate(90deg);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-20 {
+  background-color: var(--hh);
+  pointer-events: none;
+  margin: 10px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-nmn20-copy {
+  outline-color: var(--hh);
+  outline-offset: 0px;
+  pointer-events: none;
+  background-color: #0fb0;
+  outline-width: 1px;
+  outline-style: solid;
+  margin: 10px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-blsklider {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  display: flex;
+}
+
+.sliderder {
+  filter: blur(1px);
+  outline-color: var(--hjk);
+  outline-offset: 0px;
+  outline-width: 2px;
+  outline-style: solid;
+  width: 20px;
+  height: 100px;
+  margin-left: 5px;
+  margin-right: 0;
+  position: relative;
+}
+
+.div-block-15-copyjkj {
+  filter: blur(1px);
+  background-color: #17ffb9;
+  width: 3px;
+  height: 100px;
+  margin: 10px auto;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-3-copybjj {
+  outline-color: var(--hjk);
+  outline-offset: 0px;
+  background-color: #000;
+  outline-width: 3px;
+  outline-style: solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-21 {
+  color: #fff;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.div-block-22 {
+  font-family: Decobordersnf, Arial, sans-serif;
+}
+
+.div-block-23 {
+  font-family: Kr Fleurish Deco, Trebuchet MS, sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 160px;
+}
+
+.div-block-19-cmnopy {
+  opacity: 0;
+  -webkit-backdrop-filter: brightness(139%) contrast(124%) hue-rotate(90deg);
+  backdrop-filter: brightness(139%) contrast(124%) hue-rotate(90deg);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  background-image: url('../images/kri2x.png');
+  background-position: 50% 55%;
+  background-size: 2891px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-24 {
+  outline-offset: 0px;
+  outline: 1px solid #fff;
+  width: 44px;
+  height: 11px;
+}
+
+.div-block-25 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  filter: blur(2px);
+  mix-blend-mode: screen;
+  background-image: linear-gradient(270deg, #000 29%, #81ffd9 65%, #000);
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 2px;
+  display: flex;
+}
+
+.div-block-26 {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  opacity: 1;
+  filter: contrast(200%);
+  pointer-events: none;
+  mix-blend-mode: normal;
+  flex-flow: column;
+  justify-content: space-around;
+  padding-top: 21px;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-27 {
+  opacity: 1;
+  -webkit-backdrop-filter: blur(13px);
+  backdrop-filter: blur(13px);
+  outline-offset: 0px;
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: screen;
+  background-image: url('../images/lilicht-2-2.png');
+  background-position: 50%;
+  background-size: 1410px 20px;
+  background-clip: border-box;
+  outline: 1px #333;
+  flex: 0 auto;
+  align-self: stretch;
+  height: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.div-block-25-copy {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  filter: blur(2px);
+  background-image: linear-gradient(270deg, #000, #71ffbd 34%, #000 72%);
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 2px;
+  display: flex;
+}
+
+.div-block-28 {
+  justify-content: center;
+  align-items: center;
+  width: 840px;
+  height: 840px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-29 {
+  pointer-events: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-30 {
+  mix-blend-mode: screen;
+  background-image: url('../images/sdffd-ezgif.com-speed.gif');
+  background-position: 50%;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-30.mmmm {
+  background-image: url('../images/sdffd-ezgif.com-speed.gif');
+  background-size: cover;
+  display: block;
+}
+
+.div-block-30-copy {
+  background-image: url('../images/strssss-ezgif.com-speed.gif');
+  background-position: 50%;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-30-copy.mmmm {
+  background-image: url('../images/sdffd-ezgif.com-speed.gif');
+  background-size: cover;
+  display: block;
+}
+
+.div-block-31 {
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding-left: 9px;
+  padding-right: 9px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.div-block-32 {
+  outline-offset: 0px;
+  border-radius: 12px;
+  outline: 1px solid #17e4ff00;
+  width: 12px;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-32-copy {
+  background-color: var(--hjk);
+  filter: blur(18px);
+  outline-color: var(--hjk);
+  outline-offset: 0px;
+  border-radius: 12px;
+  outline-width: 13px;
+  outline-style: solid;
+  width: 12px;
+  position: absolute;
+}
+
+.div-block-33 {
+  opacity: 1;
+  mix-blend-mode: screen;
+  align-self: stretch;
+  width: 50px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-32-copy-copy {
+  opacity: 1;
+  filter: blur(1px);
+  outline-offset: -8px;
+  border-radius: 12px;
+  outline: 3px solid #fff;
+  align-self: stretch;
+  width: 12px;
+  height: auto;
+  position: absolute;
+}
+
+.div-block-34 {
+  pointer-events: none;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-31-copy {
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.div-block-31-copy-copy {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
+
+.div-block-31-copyhuh {
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding-left: 9px;
+  padding-right: 9px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.div-block-31-copy-copy-copy {
+  flex-flow: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  display: flex;
+  position: absolute;
+  inset: 0% auto 0% 0%;
+}
+
+.div-block-35 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex: 1;
+  justify-content: center;
+  align-self: auto;
+  height: 100%;
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-36 {
+  opacity: 1;
+  filter: blur(7px);
+  outline-color: var(--hjk);
+  outline-offset: 0px;
+  background-image: linear-gradient(#0000, #00ffc336 19%, #00ffc382 45%, #00ffc4 53%, #00ffc378 61%, #00ffc35e 77%, #0000);
+  outline-width: 11px;
+  outline-style: none;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  margin: -177px 0 0;
+  display: block;
+  position: relative;
+}
+
+.div-block-37 {
+  outline-color: var(--hjk);
+  outline-offset: 0px;
+  mix-blend-mode: hard-light;
+  outline-width: 3px;
+  outline-style: none;
+  flex: 1;
+  align-self: auto;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  position: relative;
+}
+
+.div-block-36-copy {
+  border-right: 5px solid var(--hh);
+  border-left: 1px solid var(--hh);
+  opacity: 1;
+  outline-color: var(--hjk);
+  outline-offset: -4px;
+  outline-width: 2px;
+  outline-style: none;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+
+@font-face {
+  font-family: 'Futura Std Book';
+  src: url('../fonts/Futura-Std-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Light-Oblique.ttf') format('truetype'), url('../fonts/Futura-Std-Light-Oblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Heavy-Oblique.ttf') format('truetype'), url('../fonts/Futura-Std-Heavy-Oblique.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/Futura-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Urw';
+  src: url('../fonts/Futura-URW-Heavy-Italic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Light.ttf') format('truetype'), url('../fonts/Futura-Std-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Heavy.ttf') format('truetype'), url('../fonts/Futura-Std-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Extra';
+  src: url('../fonts/Futura-Std-Extra-Bold.ttf') format('truetype'), url('../fonts/Futura-Std-Extra-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Extra';
+  src: url('../fonts/Futura-Std-Extra-Bold-Oblique.ttf') format('truetype'), url('../fonts/Futura-Std-Extra-Bold-Oblique.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Book';
+  src: url('../fonts/Futura-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Condensed';
+  src: url('../fonts/Futura-Std-Medium-Condensed-Oblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Extra Condensed';
+  src: url('../fonts/Futura-Std-Extra-Bold-Condensed.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Medium-Oblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/Futura-Std-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Condensed';
+  src: url('../fonts/Futura-Std-Light-Condensed-Oblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Condensed';
+  src: url('../fonts/Futura-Std-Light-Condensed.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Std Condensed';
+  src: url('../fonts/Futura-Std-Medium-Condensed.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Decobordersnf';
+  src: url('../fonts/DecoBordersNF.ttf') format('truetype'), url('../fonts/DecoBordersNF.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kr Fleurish Deco';
+  src: url('../fonts/KR-Fleurish-Deco.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

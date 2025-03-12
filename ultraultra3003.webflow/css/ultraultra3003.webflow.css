@@ -1,0 +1,100 @@
+.div-block {
+  position: absolute;
+  inset: 0%;
+}
+
+.body {
+  background-color: #000;
+}
+
+.div-block-2 {
+  opacity: .3;
+  filter: invert();
+  mix-blend-mode: multiply;
+  background-image: url('../images/gittz4x.png');
+  background-position: 0 0;
+  background-size: 36px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-3 {
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-4 {
+  outline-offset: 0px;
+  outline: 1px solid #fff;
+  width: 10px;
+  height: 10px;
+}
+
+.code-embed {
+  mix-blend-mode: screen;
+}
+
+.mydiv {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  opacity: 0;
+  -webkit-backdrop-filter: hue-rotate(180deg);
+  backdrop-filter: hue-rotate(180deg);
+  mix-blend-mode: color-dodge;
+  background-color: #fff0;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-5 {
+  mix-blend-mode: screen;
+  background-color: #ffffffa3;
+  width: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
+  inset: 0%;
+}
+
+.div-block-6 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  position: fixed;
+  inset: 0% auto 0% 0%;
+}
+
+.div-block-7 {
+  filter: invert();
+  outline-offset: 0px;
+  outline: 1px solid #585858;
+  width: 30px;
+  height: 150px;
+  position: relative;
+}
+
+.thumber {
+  filter: blur(1px);
+  outline-offset: 0px;
+  background-color: #424242c9;
+  outline: 1px solid #2e2e2e;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-8 {
+  background-color: #00ffbba3;
+  width: 10px;
+}
+
+
